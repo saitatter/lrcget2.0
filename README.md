@@ -1,10 +1,12 @@
 # LRCGET
 
-Utility for mass-downloading LRC synced lyrics for your offline music library.
+Utility for bulk-downloading LRC-synced lyrics for your offline music library.
 
-LRCGET will scan every files in your chosen directory for music files, then and try to download lyrics to a LRC files having the same name and save them to the same directory as your music files.
+LRCGET scans your music library, detects supported audio files, and automatically downloads synchronized lyrics as `.lrc` files, saving them alongside your music.
 
-LRCGET is the official client of [LRCLIB](https://lrclib.net) service.
+This project is a fork of the original **lrcget**, aiming to integrate features that were requested in the upstream repository and improve the overall workflow.
+
+## Planned Features
 
 ## Download
 
